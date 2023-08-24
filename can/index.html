@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'cursive', sans-serif;
+      background-color: #f7ede2;
+    }
+    .navbar {
+      background-color: #f45b69;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      justify-content: flex-start;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      margin-right: 20px;
+    }
+    .navbar a:hover {
+      background-color: white;
+      color: #f45b69;
+    }
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+    .side-nav {
+      background-color: #f45b69;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-align: left;
+      position: relative;
+      left: 0;
+      width: 25%;
+      margin-right: 20px;
+    }
+    .side-nav h3 {
+      font-size: 24px;
+      margin-top: 0;
+      text-align: left;
+    }
+    .side-nav .discount-button {
+      background-color: white;
+      color: #f45b69;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    .discount-description {
+      font-size: 16px;
+      color: white;
+      margin-top: 1;
+      text-align: left;
+    }
+    .center {
+      flex-grow: 1;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #f45b69;
+      width: 100%;
+      text-align: left;
+    }
+    p {
+      font-size: 24px;
+      color: #4f4a41;
+      width: 100%;
+      text-align: left;
+    }
+    .candy-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#">Cotton Candy</a>
+    <a href="#">Candy</a>
+    <a href="#">Chocolate</a>
+    <a href="#">Marshmallows</a>
+    <a href="#">Contacts</a>
+  </div>
+  <div class="container">
+    <div class="side-nav">
+      <h3>Special Offers</h3>
+      <button class="discount-button">Independence Day Special</button>
+      <p class="discount-description">Get 15% off on all candies and chocolates.</p>
+      <button class="discount-button">Patriotic Treats</button>
+      <p class="discount-description">Enjoy a free Cotton Candy with every purchase over PKR 500.</p>
+      <button class="discount-button">Sweet Freedom Bundle</button>
+      <p class="discount-description">Buy one Marshmallow pack and get a second one at half price.</p>
+    </div>
+    <section class="center">
+      <div class="main-content">
+        <h1>Welcome to the Candy Store!</h1>
+        <p>Indulge in a world of sweetness and delight. At our Candy Store, you'll find a delightful assortment of treats, from fluffy Cotton Candy to irresistible Chocolates. Our carefully crafted Candies will tantalize your taste buds, and our soft and pillowy Marshmallows are a true delicacy. Our store is a haven for all candy enthusiasts, young and old alike. Come visit us and experience the magic of confectionery that will bring back cherished memories and create new ones.</p>
+        <img src="./image/istockphoto-1457884642-612x612.jpg" alt="Candy Store" class="candy-image">
+      </div>
+    </section>
+  </div>
+</body>
+</html>
